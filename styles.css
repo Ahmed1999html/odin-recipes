@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+   
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+
+body{
+    background-image: url("recipes/images/decorate-above-your-kitchen-cabinets-4165781-hero-a77f4e068c134460849c0971baaae0a2.jpg");
+    image-rendering: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+ul{
+    font-size: large;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+   align-items: center;
+}
+li{
+    background-color: antiquewhite;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    border: 2px solid black;
+    width: 500px;
+    margin: 5px;
+    
+}
+h2{
+    color: blueviolet;
+   
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    background-color: antiquewhite;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
